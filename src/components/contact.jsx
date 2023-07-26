@@ -33,7 +33,7 @@ export const ContactUs = () => {
 
   return (
     <StyledContactForm>
-        <form ref={form} onSubmit={sendEmail, handleSubmit(onSubmit)}>
+        <form ref={form} onSubmit={() => {sendEmail(); handleSubmit(onSubmit)}}>
             <label>Name</label>
             <input 
                 {...register("name", {
