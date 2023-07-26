@@ -81,6 +81,7 @@ const StyledContactForm = styled.div`
     width: 100%;
     font-size: 16px;
 
+
     input {
       width: 100%;
       height: 35px;
@@ -117,7 +118,7 @@ const StyledContactForm = styled.div`
     input[type="submit"] {
       margin-top: 2rem;
       cursor: pointer;
-      background: rgb(249, 105, 14);
+      background: rgb(28, 200, 243);
       color: white;
       border: none;
     }
