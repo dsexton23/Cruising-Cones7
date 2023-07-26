@@ -5,7 +5,7 @@ import "../styles/Menu.css";
 function Menu() {
   return (
     <div className='menu'>
-        <img src={menuPicture} />
+        <img src={menuPicture} alt='menu'/>
     </div>
   )
 }
