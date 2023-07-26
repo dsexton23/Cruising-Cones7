@@ -10,7 +10,7 @@ function Footer() {
       <div className="socialMedia">
         <InstagramIcon /> <TwitterIcon /> <FacebookIcon /> 
       </div>
-      <p> &copy; 2021 pedrotechpizza.com</p>
+      <p> cruisingcones7@gmail.com </p>
     </div>
   );
 }
