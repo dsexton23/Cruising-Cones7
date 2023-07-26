@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import ReactDOM from 'react-dom';
 import emailjs from '@emailjs/browser';
 import styled from "styled-components";
 import { useForm } from "react-hook-form";
@@ -26,7 +27,7 @@ export const ContactUs = () => {
         );
   };
 
-  const {register, handleSubmit, formState: {errors}} = useForm()
+  const {register, handleSubmit, formState: {errors}} = useForm();
 
   const onSubmit = (data) => console.log(data);
 
