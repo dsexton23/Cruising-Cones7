@@ -1,9 +1,9 @@
-import React, { useRef } from 'react';
+import React, { useRef } from "react";
 import emailjs from '@emailjs/browser';
-import styled from "styled-components";
-import { useForm } from "react-hook-form";
+import "../styles/Contact.css";
+import { useForm } from 'react-hook-form';
 
-export const ContactUs = () => {
+export const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -33,7 +33,10 @@ export const ContactUs = () => {
   const onSubmit = (data) => console.log(data);
 
   return (
-    <StyledContactForm>
+      <div>
+        <div className="contactHeading">
+          <h1>Contact us to book your next Event!</h1>
+        </div>
         <form ref={form} onSubmit={sendEmail}>
             <label>Name</label>
             <input 
@@ -67,62 +70,8 @@ export const ContactUs = () => {
             <textarea {...register("message")} name="message" />
             <input type="submit" value="Send" />
         </form>
-    </StyledContactForm>
+      </div>
   );
 };
 
-export default ContactUs;
-
-const StyledContactForm = styled.div`
-  width: 400px;
-
-  form {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    width: 100%;
-    font-size: 16px;
-
-
-    input {
-      width: 100%;
-      height: 35px;
-      padding: 7px;
-      outline: none;
-      border-radius: 5px;
-      border: 1px solid rgb(220, 220, 220);
-
-      &:focus {
-        border: 2px solid rgba(0, 206, 158, 1);
-      }
-    }
-
-    textarea {
-      max-width: 100%;
-      min-width: 100%;
-      width: 100%;
-      max-height: 100px;
-      min-height: 100px;
-      padding: 7px;
-      outline: none;
-      border-radius: 5px;
-      border: 1px solid rgb(220, 220, 220);
-
-      &:focus {
-        border: 2px solid rgba(0, 206, 158, 1);
-      }
-    }
-
-    label {
-      margin-top: 1rem;
-    }
-
-    input[type="submit"] {
-      margin-top: 2rem;
-      cursor: pointer;
-      background: rgb(28, 200, 243);
-      color: white;
-      border: none;
-    }
-  }
-`;
+export default Contact;
