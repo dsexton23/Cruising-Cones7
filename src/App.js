@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import ContactUs from "./components/contact";
+
 
 function App() {
 	return (
@@ -33,6 +35,11 @@ function App() {
 					</div>
 				</div>
 			</section>
+
+      <div className="contact">
+          <ContactUs />
+      </div>
+
 			{/* <section class="section">
 				<div class="box-main">
 					<div class="secondHalf">

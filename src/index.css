@@ -142,3 +142,7 @@ background-color: #000;
 	justify-content: center;
 	color: #fff;
 }
+
+.error {
+  color: red;
+}
