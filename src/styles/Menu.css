@@ -1,9 +1,10 @@
 .menu {
-    width: 100%;
+    width: auto;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: rgb(255, 251, 44);
+    object-fit: contain;
   }

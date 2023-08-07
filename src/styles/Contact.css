@@ -41,21 +41,21 @@
   
   form input {
     height: 40px;
-    width: 80%;
+    width: 30%;
     border: none;
     border-bottom: 1px solid #121619;
     color: black;
-    background-color: aqua;
+    background-color: white;
   }
   
   form textarea {
     margin-top: 15px;
-    height: 70px;
-    width: 80%;
+    height: 140px;
+    width: 35%;
     border: none;
     border-bottom: 1px solid #121619;
     color: black;
-    background-color: aqua;
+    background-color: white;
   }
   input::placeholder,
   textarea::placeholder {
@@ -71,14 +71,14 @@
   
   form label {
     margin-top: 15px;
-    color: grey;
+    color: black;
   }
   
   form button {
-    margin-top: 40px;
+    margin-top: 60px;
     width: 140px;
     height: 40px;
-    border: none;
+    border: 5px;
     background-color: #121619;
     color: whitesmoke;
     font-size: 15px;
@@ -88,5 +88,7 @@
   .contactHeading {
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: yellow;
+    font-size: 1.5em;
   }

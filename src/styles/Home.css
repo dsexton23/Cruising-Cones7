@@ -14,18 +14,24 @@
   .headerContainer {
     width: auto;
     margin-left: 50px;
+    background-color: rgb(255, 251, 44);
   }
   
   .headerContainer h1 {
+    display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 90px;
+    font-size: 70px;
     height: 60px;
     font-weight: 50;
     color: black;
+
   }
   
   .headerContainer p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 0;
     font-size: 40px;
     font-weight: lighter;
@@ -34,6 +40,8 @@
   
   .headerContainer button {
     color: black;
+    display: flex;
+    align-items: center;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -83,9 +91,13 @@
     }
   
     .headerContainer button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       background-color: white;
       color: #121619;
       margin-bottom: 30px;
+      
     }
   
     .headerContainer button:hover {
