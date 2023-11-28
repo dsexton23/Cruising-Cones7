@@ -1,0 +1,22 @@
+.eventList{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 251, 44);
+}
+
+.upcoming-event{
+    outline-style: inset;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+/* h3{
+    
+} */
