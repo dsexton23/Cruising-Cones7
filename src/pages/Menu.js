@@ -1,5 +1,5 @@
 import React from 'react';
-import menuPicture from '../assets/cc7menuimg.png';
+import menuPicture from '../assets/menuNoPrices.png';
 import "../styles/Menu.css";
 
 function Menu() {
