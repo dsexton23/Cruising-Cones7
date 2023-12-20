@@ -5,6 +5,7 @@ import React from "react";
 // import interactionPlugin from "@fullcalendar/interaction";
 import "../styles/Events.css"
 // import eventFormatter from "../components/eventFormatter";
+import xmasPopup from "../assets/xmas_popup.png"
 
 
 
@@ -23,15 +24,13 @@ function Events() {
 
     return  (
       <div className="eventList">
-        {/* <div 
+        <div 
           className="upcoming-event"
         >
-          <h2>Test Event</h2>
-          <h3>future date</h3>
-          <h3>This location</h3>
+          <img src={xmasPopup} alt='XmasPopup' />
         </div>
 
-        <div className="upcoming-event"
+        {/* <div className="upcoming-event"
         >
           <h2>2nd Event</h2>
           <h3>2nd date</h3>

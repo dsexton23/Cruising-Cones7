@@ -17,6 +17,8 @@
     margin: 10px;
 }
 
-/* h3{
-    
-} */
+.upcoming-event img{
+    object-fit: fill;
+    height: 40%;
+    width: 50%;
+}
