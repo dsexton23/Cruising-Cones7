@@ -5,7 +5,7 @@ import React from "react";
 // import interactionPlugin from "@fullcalendar/interaction";
 import "../styles/Events.css"
 // import eventFormatter from "../components/eventFormatter";
-import xmasPopup from "../assets/xmas_popup.png"
+import xmasPopup from "../assets/7328D171-3DD9-4E16-AC00-107E9A0CF08B.png"
 
 
 
