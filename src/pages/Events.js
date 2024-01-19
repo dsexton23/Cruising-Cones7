@@ -5,9 +5,9 @@ import React from "react";
 // import interactionPlugin from "@fullcalendar/interaction";
 import "../styles/Events.css"
 // import eventFormatter from "../components/eventFormatter";
-import xmasPopup from "../assets/7328D171-3DD9-4E16-AC00-107E9A0CF08B.png"
-
-
+import SundayFunday from "../assets/SundayFunday.png";
+import VisaliaHomePatio from "../assets/VisaliaHomePatio.png";
+import SpringCraft from "../assets/SpringCraftFair.png";
 
 function Events() {
   // const events = [
@@ -27,7 +27,9 @@ function Events() {
         <div 
           className="upcoming-event"
         >
-          <img src={xmasPopup} alt='XmasPopup' />
+          <img src={SundayFunday} alt='Sunday Funday' />
+          <img src={VisaliaHomePatio} alt='Visalia home and patio show' />
+          <img src={SpringCraft} alt='Spring Craft Fair' />
         </div>
 
         {/* <div className="upcoming-event"
@@ -56,17 +58,3 @@ export default Events;
 
 
 
-      {/* OLD CALENDAR CODE to go inside the return <div> ... </div> */}
-        {/* <Fullcalendar
-        plugins={[dayGridPlugin,timeGridPlugin,interactionPlugin]}
-        initialView={'dayGridMonth'}
-        headerToolbar={
-            {
-                start: "title",
-                center: "",
-                end: "today prev,next"
-            }}
-          height={"90vh"}
-          events={events}
-        />
-     */}

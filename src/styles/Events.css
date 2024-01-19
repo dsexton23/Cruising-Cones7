@@ -14,11 +14,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 10px;
+    margin: 15px;
 }
 
 .upcoming-event img{
     object-fit: fill;
     height: 80%;
     width: 70%;
+    margin-top: 10px;
 }
