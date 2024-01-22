@@ -8,6 +8,7 @@ import "../styles/Events.css"
 import SundayFunday from "../assets/SundayFunday.png";
 import VisaliaHomePatio from "../assets/VisaliaHomePatio.png";
 import SpringCraft from "../assets/SpringCraftFair.png";
+import PopUp from "../assets/popup127.png";
 
 function Events() {
   // const events = [
@@ -27,6 +28,8 @@ function Events() {
         <div 
           className="upcoming-event"
         >
+        
+          <img src={PopUp} alt='Jan27' />
           <img src={SundayFunday} alt='Sunday Funday' />
           <img src={VisaliaHomePatio} alt='Visalia home and patio show' />
           <img src={SpringCraft} alt='Spring Craft Fair' />
