@@ -34,9 +34,10 @@ function Events() {
           {/* <img src={PopUp} alt='Jan27' />
           <img src={SundayFunday} alt='Sunday Funday' />
           <img src={VisaliaHomePatio} alt='Visalia home and patio show' /> */}
-          <img src={SpringCraft} alt='Spring Craft Fair' />
           <img src={feb18} alt='Manteca popup 2/18' />
           <img src={feb25} alt='Modesto popup 2/25' />
+          <img src={SpringCraft} alt='Spring Craft Fair' />
+
         </div>
 
         {/* <div className="upcoming-event"
