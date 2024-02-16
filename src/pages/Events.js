@@ -9,6 +9,8 @@ import SundayFunday from "../assets/SundayFunday.png";
 import VisaliaHomePatio from "../assets/VisaliaHomePatio.png";
 import SpringCraft from "../assets/SpringCraftFair.png";
 import PopUp from "../assets/popup127.png";
+import feb18 from "../assets/feb18.png";
+import feb25 from "../assets/feb25.png";
 
 function Events() {
   // const events = [
@@ -29,10 +31,12 @@ function Events() {
           className="upcoming-event"
         >
         
-          <img src={PopUp} alt='Jan27' />
+          {/* <img src={PopUp} alt='Jan27' />
           <img src={SundayFunday} alt='Sunday Funday' />
-          <img src={VisaliaHomePatio} alt='Visalia home and patio show' />
+          <img src={VisaliaHomePatio} alt='Visalia home and patio show' /> */}
           <img src={SpringCraft} alt='Spring Craft Fair' />
+          <img src={feb18} alt='Manteca popup 2/18' />
+          <img src={feb25} alt='Modesto popup 2/25' />
         </div>
 
         {/* <div className="upcoming-event"
