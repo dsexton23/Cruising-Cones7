@@ -11,6 +11,7 @@ import SpringCraft from "../assets/SpringCraftFair.png";
 import PopUp from "../assets/popup127.png";
 import feb18 from "../assets/feb18.png";
 import feb25 from "../assets/feb25.png";
+import mar17 from "../assets/3-17.png.png";
 
 function Events() {
   // const events = [
@@ -34,9 +35,11 @@ function Events() {
           {/* <img src={PopUp} alt='Jan27' />
           <img src={SundayFunday} alt='Sunday Funday' />
           <img src={VisaliaHomePatio} alt='Visalia home and patio show' /> */}
-          <img src={feb18} alt='Manteca popup 2/18' />
+  
           <img src={feb25} alt='Modesto popup 2/25' />
+          <img src={mar17} alt='St. Patcricks' />
           <img src={SpringCraft} alt='Spring Craft Fair' />
+
 
         </div>
 
