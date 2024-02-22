@@ -5,13 +5,13 @@ import React from "react";
 // import interactionPlugin from "@fullcalendar/interaction";
 import "../styles/Events.css"
 // import eventFormatter from "../components/eventFormatter";
-import SundayFunday from "../assets/SundayFunday.png";
-import VisaliaHomePatio from "../assets/VisaliaHomePatio.png";
+// import SundayFunday from "../assets/SundayFunday.png";
+// import VisaliaHomePatio from "../assets/VisaliaHomePatio.png";
 import SpringCraft from "../assets/SpringCraftFair.png";
-import PopUp from "../assets/popup127.png";
-import feb18 from "../assets/feb18.png";
+// import PopUp from "../assets/popup127.png";
+// import feb18 from "../assets/feb18.png";
 import feb25 from "../assets/feb25.png";
-import mar17 from "../assets/3-17.png.png";
+import mar17 from "../assets/mar17.png";
 
 function Events() {
   // const events = [
