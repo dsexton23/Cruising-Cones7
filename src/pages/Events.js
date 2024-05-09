@@ -12,6 +12,10 @@ import SpringCraft from "../assets/SpringCraftFair.png";
 // import feb18 from "../assets/feb18.png";
 import feb25 from "../assets/feb25.png";
 import mar17 from "../assets/mar17.png";
+import may11 from "../assets/edgeOfSpring5-9.png"
+import may17 from "../assets/AuburnSpringHome5-17.png"
+import june1 from "../assets/yosemiteChivalry6-1.png"
+import june15 from "../assets/auburnGoldCountry6-15.png"
 
 function Events() {
   // const events = [
@@ -36,10 +40,10 @@ function Events() {
           <img src={SundayFunday} alt='Sunday Funday' />
           <img src={VisaliaHomePatio} alt='Visalia home and patio show' /> */}
   
-          <img src={feb25} alt='Modesto popup 2/25' />
-          <img src={mar17} alt='St. Patcricks' />
-          <img src={SpringCraft} alt='Spring Craft Fair' />
-
+          <img src={may11} alt='Edge of spring' />
+          <img src={may17} alt='Auburn home show' />
+          <img src={june1} alt='Yosemite Chivalry' />
+          <img src={june15} alt='Auburn Gold Country' />
 
         </div>
 
